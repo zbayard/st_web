@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from './Navbar';
 import logo from './supertaste-final.png'
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
         <div className='item about'onClick={openWebsite}>ABOUT</div>
         <div className='item merch'onClick={openWebsite}>MERCH</div>
       </div>
+
+      <Navbar/>
     </div>
   );
 }
