@@ -1,20 +1,45 @@
 body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  height: 100vh;
+  margin: 0;
+  font-family: Helvetica;
+  font-weight: 700;
 }
 
 .App{
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+  height: 100vh;
+  
 }
 
-.super-taste{
-  font-size: 100px;
-  color: red;
+.item-box{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+
+}
+
+.top{
+  position: fixed;
+  top: 0;
+}
+
+.bottom{
+  position: fixed;
+  bottom: 0;
+}
+
+.logo{
+  height: 350px;
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  color: black;
 }
 
 
